@@ -17,7 +17,7 @@ Develop a Digital Input/Output (DIO) driver for Arduino compatible with AVR micr
 
 3. stdTypes.h:
    - Define standard data types not dependent on compiler.
-   - Include data types such as uint8_t, uint16_t, int8_t, etc.
+   - Include data types such as u8, u16, s8, etc.
 
 4. bitMath.h:
    - Implement bit manipulation functions like setBit, getBit, clearBit, and toggleBit.
