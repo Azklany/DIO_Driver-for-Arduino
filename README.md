@@ -1,8 +1,8 @@
 # DIO_Driver-for-Arduino
-Objective:
+### Objective:
 To evaluate your understanding of embedded systems concepts and your ability to develop drivers for AVR microcontrollers.
 
-Task:
+### Task:
 Develop a Digital Input/Output (DIO) driver for Arduino compatible with AVR microcontrollers. The driver should include functions for pinMode, digitalWrite, digitalToggle, and digitalRead.
 
 ### Specifications:
@@ -51,15 +51,15 @@ Develop a Digital Input/Output (DIO) driver for Arduino compatible with AVR micr
 
 In your mini-project involving microcontrollers or embedded systems, the way you define macros for ports and pins can significantly impact the clarity, simplicity, and scalability of your code. It's essential to consider combining port and pin macros into a single definition rather than defining them separately. Here's why:
 
-Simplicity and Clarity: Combining port and pin macros simplifies your codebase and makes it clearer. It reduces the number of macros you need to manage and helps others understand the purpose of each macro more easily.
+- Simplicity and Clarity: Combining port and pin macros simplifies your codebase and makes it clearer. It reduces the number of macros you need to manage and helps others understand the purpose of each macro more easily.
 
-Ease of Use: With combined macros, referencing specific pins becomes more straightforward. You don't have to juggle multiple macros for ports and pins, streamlining the configuration and access of GPIO pins in your code.
+- Ease of Use: With combined macros, referencing specific pins becomes more straightforward. You don't have to juggle multiple macros for ports and pins, streamlining the configuration and access of GPIO pins in your code.
 
-Flexibility: Using combined macros offers greater flexibility when porting your code to different microcontroller platforms or when adjusting pin configurations. You only need to update the combined macro instead of multiple macros for each pin, saving time and minimizing errors.
+- Flexibility: Using combined macros offers greater flexibility when porting your code to different microcontroller platforms or when adjusting pin configurations. You only need to update the combined macro instead of multiple macros for each pin, saving time and minimizing errors.
 
-Consistency: Adopting a standardized naming convention for combined macros ensures consistency throughout your codebase. This consistency aids in understanding and maintaining the code, especially in larger projects with multiple contributors.
+* Consistency: Adopting a standardized naming convention for combined macros ensures consistency throughout your codebase. This consistency aids in understanding and maintaining the code, especially in larger projects with multiple contributors.
 
-Deliverables: .Provide the source code files (DIO.h, DIO.c, stdTypes.h, bitMath.h, register.h).
+- Deliverables: .Provide the source code files (DIO.h, DIO.c, stdTypes.h, bitMath.h, register.h).
 
 <hr>
 
