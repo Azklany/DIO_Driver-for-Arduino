@@ -5,7 +5,7 @@ To evaluate your understanding of embedded systems concepts and your ability to 
 Task:
 Develop a Digital Input/Output (DIO) driver for Arduino compatible with AVR microcontrollers. The driver should include functions for pinMode, digitalWrite, digitalToggle, and digitalRead.
 
-###Specifications:
+### Specifications:
 
 1. DIO.h:
    - Declare function prototypes for pinMode, digitalWrite, digitalRead, and digitalToggle.
@@ -26,7 +26,7 @@ Develop a Digital Input/Output (DIO) driver for Arduino compatible with AVR micr
 5. register.h:
    - Define macros for accessing AVR microcontroller registers (DDR, PIN, PORT) for ports A, B, C, D.
 
-###Function Definitions:
+### Function Definitions:
 
 1. pinMode(port_pin, state):
    - Configure the specified port_pin as input or output based on the provided state.
@@ -47,7 +47,7 @@ Develop a Digital Input/Output (DIO) driver for Arduino compatible with AVR micr
    - Toggle the digital state of the specified port_pin.
    - `port_pin`: The port and pin number combined.
 
-####Note: The Importance of Combined Macros for Ports and Pins
+#### Note: The Importance of Combined Macros for Ports and Pins
 
 In your mini-project involving microcontrollers or embedded systems, the way you define macros for ports and pins can significantly impact the clarity, simplicity, and scalability of your code. It's essential to consider combining port and pin macros into a single definition rather than defining them separately. Here's why:
 
